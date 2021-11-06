@@ -16,3 +16,13 @@ CRITICAL - 2021-11-06 06:30:03 --> The framework needs the following extension(s
 #2 C:\xampp\htdocs\blog\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
 #3 C:\xampp\htdocs\blog\index.php(28): require('C:\\xampp\\htdocs...')
 #4 {main}
+CRITICAL - 2021-11-06 03:57:11 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\xampp\htdocs\blog\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\blog\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\blog\system\Common.php(1092): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\blog\app\Controllers\Home.php(10): view('index')
+#4 C:\xampp\htdocs\blog\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\blog\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\blog\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\blog\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

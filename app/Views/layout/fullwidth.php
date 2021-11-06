@@ -1,16 +1,18 @@
+<?= $this->extend("layout/base"); ?>
 
-        <section>
-            <div class="container">
+<?= $this->section("page content"); ?>
+<section>
+  <div class="container">
 
     <div class="row">
 
       <!-- Post Content Column -->
-      
+
 
       <!-- Sidebar Widgets Column -->
-      
 
-	<div class="col-lg-12">
+
+      <div class="col-lg-12">
 
         <!-- Title -->
         <h1 class="mt-4 text-primary"><i>Page title will goes here</i></h1>
@@ -41,19 +43,20 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
 
         <hr>
-       
+
 
       </div>
-	
+
 
     </div>
     <!-- /.row -->
 
   </div>
-        </section>
-        
-        
-        <footer class="bg-primary px-2 py-2">
-            <div>
-                <p class="text-center">&copy; 2020 All Copy rights reserved</p>
-            </div>
+</section>
+
+
+<footer class="bg-primary px-2 py-2">
+  <div>
+    <p class="text-center">&copy; 2020 All Copy rights reserved</p>
+  </div>
+  <?= $this->endsection() ?>

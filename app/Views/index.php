@@ -1,4 +1,6 @@
+<?= $this->extend("layout/base"); ?>
 
+<?= $this->section("page content"); ?>
         <section>
             <div class="banner">
                 <img class="img-fluid" src="public/assets/images/b3.jpg">
@@ -117,3 +119,4 @@
             <div>
                 <p class="text-center">&copy; 2020 All Copy rights reserved</p>
             </div>
+<?= $this->endsection();?>

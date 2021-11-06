@@ -1,32 +1,34 @@
+<?= $this->extend("layout/base"); ?>
 
-        <section>
-            <div class="container">
+<?= $this->section("page content"); ?>
+<section>
+  <div class="container">
 
     <div class="row">
 
       <!-- Post Content Column -->
-      
+
 
       <!-- Sidebar Widgets Column -->
       <div class="col-md-3 pt-3">
-	  
-	  <div class="card my-4">
+
+        <div class="card my-4">
           <h5 class="card-header">Related Articles</h5>
           <div class="card-body">
-		<nav class="nav flex-column">
-		  <a class="nav-link active" href="#">PHP Training</a>
-		  <a class="nav-link" href="#">CodeIgniter 4 Training</a>
-		  <a class="nav-link" href="#">Drupal 9 Development</a>
-		  <a class="nav-link" href="#">Laravel Training</a>
-		  <a class="nav-link" href="#">Wordpress Development Training</a>
-		  <a class="nav-link" href="#">More...</a>
-		</nav>
-		</div>
-	  </div>
+            <nav class="nav flex-column">
+              <a class="nav-link active" href="#">PHP Training</a>
+              <a class="nav-link" href="#">CodeIgniter 4 Training</a>
+              <a class="nav-link" href="#">Drupal 9 Development</a>
+              <a class="nav-link" href="#">Laravel Training</a>
+              <a class="nav-link" href="#">Wordpress Development Training</a>
+              <a class="nav-link" href="#">More...</a>
+            </nav>
+          </div>
+        </div>
 
       </div>
 
-	<div class="col-lg-6">
+      <div class="col-lg-6">
 
         <!-- Title -->
         <h1 class="mt-4 text-primary"><i>Page title will goes here</i></h1>
@@ -57,15 +59,15 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
 
         <hr>
-       
+
 
       </div>
 
-	<!--Right sidebar-->
-	<div class="col-md-3 pt-5">
-	  
-	  
-	  
+      <!--Right sidebar-->
+      <div class="col-md-3 pt-5">
+
+
+
         <!-- Search Widget -->
         <div class="card my-4">
           <h5 class="card-header">Search</h5>
@@ -120,27 +122,28 @@
             You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
           </div>
         </div>
-		<div class="card my-4">
+        <div class="card my-4">
           <h5 class="card-header">Quick Links</h5>
           <div class="card-body">
-		<nav class="nav flex-column">
-		  <a class="nav-link active" href="#">Vision & Mission </a>
-		  <a class="nav-link" href="#">Enquiry Now</a>
-		  <a class="nav-link" href="#">Donate Us</a>
-		  <a class="nav-link disabled" href="#">Disabled</a>
-		</nav>
-		</div>
-	  </div>
+            <nav class="nav flex-column">
+              <a class="nav-link active" href="#">Vision & Mission </a>
+              <a class="nav-link" href="#">Enquiry Now</a>
+              <a class="nav-link" href="#">Donate Us</a>
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </nav>
+          </div>
+        </div>
       </div>
 
     </div>
     <!-- /.row -->
 
   </div>
-        </section>
-        
-        
-        <footer class="bg-primary px-2 py-2">
-            <div>
-                <p class="text-center">&copy; 2020 All Copy rights reserved</p>
-            </div>
+</section>
+
+
+<footer class="bg-primary px-2 py-2">
+  <div>
+    <p class="text-center">&copy; 2020 All Copy rights reserved</p>
+  </div>
+  <?= $this->endsection() ?>

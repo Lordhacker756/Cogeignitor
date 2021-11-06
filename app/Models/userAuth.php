@@ -8,7 +8,8 @@ class userAuth extends Model
 {
     function login_auth()
     {
-
+        
+        $this->post->get();
     }
 }
 
